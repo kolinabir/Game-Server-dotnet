@@ -23,3 +23,4 @@ D:\WEBDEV\Asp Dot Net\firstProject\obj\Debug\net8.0\refint\firstProject.dll
 D:\WEBDEV\Asp Dot Net\firstProject\obj\Debug\net8.0\firstProject.pdb
 D:\WEBDEV\Asp Dot Net\firstProject\obj\Debug\net8.0\firstProject.genruntimeconfig.cache
 D:\WEBDEV\Asp Dot Net\firstProject\obj\Debug\net8.0\ref\firstProject.dll
+D:\WEBDEV\Asp Dot Net\firstProject\obj\Debug\net8.0\firstProject.sourcelink.json
