@@ -15,7 +15,12 @@ app.MapGet("/", () => "Hello World!!!!!!");
 
 app.MapGet("/games", () => games);
 
-app.MapGet("/games/{id}", (int id) => games.Find(game => game.Id == id)).WithName(GetGameEndpointName);
+app.MapGet("/games/{id}", (int id) =>
+{
+    GameDto? game =
+    games.Find(game => game.Id == id);
+    return game is null ? Results.NotFound() : Results.Ok(game);
+}).WithName(GetGameEndpointName);
 
 app.MapGet("/games/find/{name}", (string name) => games.Find((game) => game.Name == name));
 
